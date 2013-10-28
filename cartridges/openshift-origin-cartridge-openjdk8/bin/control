@@ -1,0 +1,10 @@
+#!/bin/bash -e
+
+source $OPENSHIFT_CARTRIDGE_SDK_BASH
+
+case $1 in
+    *)
+        # No control actions needed for OpenJDK
+        exit 0
+        ;;
+esac
